@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Click → New Tab",
+  "version": "1.1.0",
+  "description": "Apre i video YouTube in una nuova scheda con il click sinistro, così la home e i feed restano intatti.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "YouTube Click → New Tab",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["defaults.js", "content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
