@@ -3,7 +3,7 @@
 ## Project layout
 
 ```
-yt-click/
+cozytube/
 ├── manifest.json      Manifest V3 entry point
 ├── defaults.js        Shared default settings object
 ├── content.js         YouTube click interception
