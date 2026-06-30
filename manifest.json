@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Click → New Tab",
+  "name": "CozyTube",
   "version": "1.4.1",
-  "description": "Open YouTube videos in a new tab on left click so your feed stays in place.",
+  "description": "CozyTube — open YouTube videos in a new tab on left click so your feed stays in place.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -13,7 +13,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "YouTube Click → New Tab",
+    "default_title": "CozyTube",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",

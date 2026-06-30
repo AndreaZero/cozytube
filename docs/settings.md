@@ -112,7 +112,7 @@ Shorts full-screen viewer              →  normal YouTube behavior
 There is no in-app reset button. To restore defaults:
 
 1. Open `chrome://extensions`
-2. Find **YouTube Click → New Tab** → **Details**
+2. Find **CozyTube** → **Details**
 3. Scroll to **Site settings** / **Storage** and clear extension data,  
    **or** remove and re-load the unpacked extension
 

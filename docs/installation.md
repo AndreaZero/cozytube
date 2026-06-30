@@ -23,12 +23,12 @@
    - Select the folder that contains `manifest.json` (the repo root)
 
 5. **Confirm it is active**
-   - You should see **YouTube Click → New Tab** in the list
+   - You should see **CozyTube** in the list
    - Ensure the extension is enabled (toggle on)
 
 ## Pin the icon (optional)
 
-Click the puzzle piece in Chrome’s toolbar → pin **YouTube Click → New Tab** for quick access to the on/off popup.
+Click the puzzle piece in Chrome’s toolbar → pin **CozyTube** for quick access to the on/off popup.
 
 ## After updating the code
 

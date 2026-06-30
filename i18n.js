@@ -48,7 +48,7 @@ const I18N = (function () {
 
   const MESSAGES = {
     en: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Left click opens videos in a new tab.",
       enabledLabel: "Extension enabled",
       enabledDesc: "Turn off to restore standard YouTube behavior.",
@@ -71,7 +71,7 @@ const I18N = (function () {
       settingsSaved: "Saved",
     },
     it: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Il click sinistro apre i video in una nuova scheda.",
       enabledLabel: "Estensione attiva",
       enabledDesc: "Disattiva per tornare al comportamento standard di YouTube.",
@@ -94,7 +94,7 @@ const I18N = (function () {
       settingsSaved: "Salvato",
     },
     es: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "El clic izquierdo abre los vídeos en una pestaña nueva.",
       enabledLabel: "Extensión activada",
       enabledDesc: "Desactiva para restaurar el comportamiento estándar de YouTube.",
@@ -117,7 +117,7 @@ const I18N = (function () {
       settingsSaved: "Guardado",
     },
     fr: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Le clic gauche ouvre les vidéos dans un nouvel onglet.",
       enabledLabel: "Extension activée",
       enabledDesc: "Désactivez pour retrouver le comportement standard de YouTube.",
@@ -140,7 +140,7 @@ const I18N = (function () {
       settingsSaved: "Enregistré",
     },
     de: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Linksklick öffnet Videos in einem neuen Tab.",
       enabledLabel: "Erweiterung aktiv",
       enabledDesc: "Deaktivieren für das normale YouTube-Verhalten.",
@@ -163,7 +163,7 @@ const I18N = (function () {
       settingsSaved: "Gespeichert",
     },
     pt: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "O clique esquerdo abre vídeos num novo separador.",
       enabledLabel: "Extensão ativa",
       enabledDesc: "Desative para restaurar o comportamento padrão do YouTube.",
@@ -186,7 +186,7 @@ const I18N = (function () {
       settingsSaved: "Guardado",
     },
     "pt-BR": {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "O clique esquerdo abre vídeos em uma nova guia.",
       enabledLabel: "Extensão ativada",
       enabledDesc: "Desative para restaurar o comportamento padrão do YouTube.",
@@ -209,7 +209,7 @@ const I18N = (function () {
       settingsSaved: "Salvo",
     },
     nl: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Linksklik opent video's in een nieuw tabblad.",
       enabledLabel: "Extensie ingeschakeld",
       enabledDesc: "Uitschakelen voor standaard YouTube-gedrag.",
@@ -232,7 +232,7 @@ const I18N = (function () {
       settingsSaved: "Opgeslagen",
     },
     pl: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Lewy przycisk otwiera filmy w nowej karcie.",
       enabledLabel: "Rozszerzenie włączone",
       enabledDesc: "Wyłącz, aby przywrócić standardowe zachowanie YouTube.",
@@ -255,7 +255,7 @@ const I18N = (function () {
       settingsSaved: "Zapisano",
     },
     ru: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Левый клик открывает видео в новой вкладке.",
       enabledLabel: "Расширение включено",
       enabledDesc: "Отключите для стандартного поведения YouTube.",
@@ -278,7 +278,7 @@ const I18N = (function () {
       settingsSaved: "Сохранено",
     },
     uk: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Лівий клік відкриває відео в новій вкладці.",
       enabledLabel: "Розширення увімкнено",
       enabledDesc: "Вимкніть для стандартної поведінки YouTube.",
@@ -301,7 +301,7 @@ const I18N = (function () {
       settingsSaved: "Збережено",
     },
     ja: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "左クリックで動画を新しいタブで開きます。",
       enabledLabel: "拡張機能を有効",
       enabledDesc: "オフにするとYouTubeの通常動作に戻ります。",
@@ -323,7 +323,7 @@ const I18N = (function () {
       settingsSaved: "保存しました",
     },
     ko: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "왼쪽 클릭으로 동영상을 새 탭에서 엽니다.",
       enabledLabel: "확장 프로그램 사용",
       enabledDesc: "끄면 YouTube 기본 동작으로 돌아갑니다.",
@@ -345,7 +345,7 @@ const I18N = (function () {
       settingsSaved: "저장됨",
     },
     zh: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "左键点击在新标签页中打开视频。",
       enabledLabel: "扩展已启用",
       enabledDesc: "关闭以恢复 YouTube 默认行为。",
@@ -367,7 +367,7 @@ const I18N = (function () {
       settingsSaved: "已保存",
     },
     "zh-TW": {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "左鍵點擊在新分頁中開啟影片。",
       enabledLabel: "擴充功能已啟用",
       enabledDesc: "關閉以恢復 YouTube 預設行為。",
@@ -389,7 +389,7 @@ const I18N = (function () {
       settingsSaved: "已儲存",
     },
     ar: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "النقر الأيسر يفتح الفيديوهات في تبويب جديد.",
       enabledLabel: "الإضافة مفعّلة",
       enabledDesc: "أوقفها لاستعادة سلوك YouTube الافتراضي.",
@@ -411,7 +411,7 @@ const I18N = (function () {
       settingsSaved: "تم الحفظ",
     },
     tr: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Sol tıklama videoları yeni sekmede açar.",
       enabledLabel: "Uzantı etkin",
       enabledDesc: "YouTube'un varsayılan davranışı için kapatın.",
@@ -434,7 +434,7 @@ const I18N = (function () {
       settingsSaved: "Kaydedildi",
     },
     hi: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "बाएँ क्लिक से वीडियो नए टैब में खुलते हैं।",
       enabledLabel: "एक्सटेंशन सक्षम",
       enabledDesc: "YouTube का सामान्य व्यवहार लाने के लिए बंद करें।",
@@ -456,7 +456,7 @@ const I18N = (function () {
       settingsSaved: "सहेजा गया",
     },
     vi: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Nhấp trái mở video trong tab mới.",
       enabledLabel: "Tiện ích đang bật",
       enabledDesc: "Tắt để khôi phục hành vi mặc định của YouTube.",
@@ -478,7 +478,7 @@ const I18N = (function () {
       settingsSaved: "Đã lưu",
     },
     th: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "คลิกซ้ายเปิดวิดีโอในแท็บใหม่",
       enabledLabel: "เปิดใช้ส่วนขยาย",
       enabledDesc: "ปิดเพื่อกลับไปใช้พฤติกรรม YouTube ปกติ",
@@ -500,7 +500,7 @@ const I18N = (function () {
       settingsSaved: "บันทึกแล้ว",
     },
     id: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Klik kiri membuka video di tab baru.",
       enabledLabel: "Ekstensi aktif",
       enabledDesc: "Matikan untuk perilaku YouTube standar.",
@@ -522,7 +522,7 @@ const I18N = (function () {
       settingsSaved: "Disimpan",
     },
     cs: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Levý klik otevře videa na nové kartě.",
       enabledLabel: "Rozšíření zapnuto",
       enabledDesc: "Vypněte pro standardní chování YouTube.",
@@ -544,7 +544,7 @@ const I18N = (function () {
       settingsSaved: "Uloženo",
     },
     da: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Venstreklik åbner videoer i en ny fane.",
       enabledLabel: "Udvidelse aktiveret",
       enabledDesc: "Sluk for standard YouTube-adfærd.",
@@ -566,7 +566,7 @@ const I18N = (function () {
       settingsSaved: "Gemt",
     },
     fi: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Vasen napsautus avaa videot uuteen välilehteen.",
       enabledLabel: "Laajennus käytössä",
       enabledDesc: "Poista käytöstä YouTuben oletustoimintaa varten.",
@@ -588,7 +588,7 @@ const I18N = (function () {
       settingsSaved: "Tallennettu",
     },
     sv: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Vänsterklick öppnar videor i en ny flik.",
       enabledLabel: "Tillägg aktiverat",
       enabledDesc: "Stäng av för standardbeteende på YouTube.",
@@ -610,7 +610,7 @@ const I18N = (function () {
       settingsSaved: "Sparat",
     },
     no: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Venstreklikk åpner videoer i en ny fane.",
       enabledLabel: "Utvidelse aktivert",
       enabledDesc: "Slå av for standard YouTube-atferd.",
@@ -632,7 +632,7 @@ const I18N = (function () {
       settingsSaved: "Lagret",
     },
     ro: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Clic stânga deschide videoclipurile într-o filă nouă.",
       enabledLabel: "Extensie activată",
       enabledDesc: "Dezactivează pentru comportamentul standard YouTube.",
@@ -654,7 +654,7 @@ const I18N = (function () {
       settingsSaved: "Salvat",
     },
     hu: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "A bal klikk új lapón nyitja meg a videókat.",
       enabledLabel: "Bővítmény bekapcsolva",
       enabledDesc: "Kapcsold ki a YouTube alap viselkedéséhez.",
@@ -676,7 +676,7 @@ const I18N = (function () {
       settingsSaved: "Mentve",
     },
     el: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Αριστερό κλικ ανοίγει βίντεο σε νέα καρτέλα.",
       enabledLabel: "Επέκταση ενεργή",
       enabledDesc: "Απενεργοποίηση για την προεπιλεγμένη συμπεριφορά YouTube.",
@@ -698,7 +698,7 @@ const I18N = (function () {
       settingsSaved: "Αποθηκεύτηκε",
     },
     he: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "לחיצה שמאלית פותחת סרטונים בלשונית חדשה.",
       enabledLabel: "התוסף פעיל",
       enabledDesc: "כבה להחזרת התנהגות YouTube הרגילה.",
@@ -720,7 +720,7 @@ const I18N = (function () {
       settingsSaved: "נשמר",
     },
     ms: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Klik kiri membuka video dalam tab baharu.",
       enabledLabel: "Sambungan aktif",
       enabledDesc: "Matikan untuk tingkah laku YouTube biasa.",
@@ -742,7 +742,7 @@ const I18N = (function () {
       settingsSaved: "Disimpan",
     },
     fil: {
-      extensionName: "YouTube Click → New Tab",
+      extensionName: "CozyTube",
       popupSubtitle: "Ang kaliwang click ay nagbubukas ng video sa bagong tab.",
       enabledLabel: "Aktibo ang extension",
       enabledDesc: "Patayin para sa default na ugali ng YouTube.",

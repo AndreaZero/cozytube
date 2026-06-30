@@ -1,4 +1,4 @@
-# YouTube Click → New Tab
+# CozyTube
 
 A small Chrome extension that opens YouTube videos in a **new tab** on a normal **left click**, so the page you were browsing stays exactly where you left it.
 
