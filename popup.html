@@ -1,26 +1,58 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube Click → New Tab</title>
     <link rel="stylesheet" href="popup.css" />
   </head>
-  <body>
-    <header>
-      <h1>YouTube Click → New Tab</h1>
-    </header>
+  <body data-i18n-title="extensionName">
+    <div class="popup">
+      <header class="header">
+        <div class="header-text">
+          <h1 data-i18n="extensionName"></h1>
+          <p data-i18n="popupSubtitle"></p>
+        </div>
+        <label class="switch" data-i18n-title="enabledDesc">
+          <input id="enabled" type="checkbox" />
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+      </header>
 
-    <label class="row row-main">
-      <span>Estensione attiva</span>
-      <input id="enabled" type="checkbox" />
-    </label>
+      <div class="panel">
+        <label class="field field-select">
+          <span class="field-label" data-i18n="languageLabel"></span>
+          <select id="language"></select>
+        </label>
+      </div>
 
-    <p id="status" class="status" hidden></p>
+      <div class="panel">
+        <p class="panel-title" data-i18n="sectionScope"></p>
 
-    <a id="open-options" href="#">Impostazioni complete</a>
+        <label class="field field-check" data-i18n-title="homeOnlyDesc">
+          <input id="homeOnly" type="checkbox" />
+          <span data-i18n="homeOnlyLabel"></span>
+        </label>
+
+        <label class="field field-check" data-i18n-title="includeWatchDesc">
+          <input id="includeWatchPage" type="checkbox" />
+          <span data-i18n="includeWatchLabel"></span>
+        </label>
+
+        <label class="field field-check" data-i18n-title="includeShortsDesc">
+          <input id="includeShortsViewer" type="checkbox" />
+          <span data-i18n="includeShortsLabel"></span>
+        </label>
+      </div>
+
+      <footer class="footer">
+        <p data-i18n="unchangedNoteShort"></p>
+        <p id="saved" class="saved" hidden data-i18n="settingsSaved"></p>
+      </footer>
+    </div>
 
     <script src="defaults.js"></script>
+    <script src="i18n.js"></script>
     <script src="popup.js"></script>
   </body>
 </html>

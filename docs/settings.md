@@ -6,13 +6,25 @@ Changes take effect immediately on open YouTube tabs — no refresh required.
 
 ## Where to change settings
 
-| UI | Use for |
-|----|---------|
-| **Extension popup** | Quick enable/disable |
-| **Options page** | Full configuration |
+Click the extension icon in the Chrome toolbar. All options live in the popup — nothing opens in a new tab.
 
-Open the popup by clicking the toolbar icon.  
-Open options from the popup (**Full settings**) or right-click the icon → **Options**.
+---
+
+## Language
+
+**Default:** English
+
+Controls the popup UI only. YouTube itself is not affected.
+
+| Value | UI language |
+|-------|-------------|
+| English | English (default) |
+| … | 31 more languages — see list below |
+| Auto (browser) | Matches your browser language when supported; falls back to English |
+
+**Supported languages:** Arabic, Czech, Danish, Dutch, English, Filipino, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Spanish, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Chinese (Simplified), Chinese (Traditional).
+
+To add another language, extend `MESSAGES` and `SUPPORTED_LANGUAGES` in `i18n.js`.
 
 ---
 
@@ -22,7 +34,7 @@ Open options from the popup (**Full settings**) or right-click the icon → **Op
 
 Master switch. When off, the extension does nothing and YouTube behaves normally.
 
-Use the popup when you want to temporarily disable interception without uninstalling.
+Use the popup to temporarily disable interception without uninstalling.
 
 ---
 

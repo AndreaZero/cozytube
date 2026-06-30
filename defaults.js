@@ -3,4 +3,5 @@ const DEFAULT_SETTINGS = {
   homeOnly: false,
   includeWatchPage: false,
   includeShortsViewer: false,
+  language: "en",
 };

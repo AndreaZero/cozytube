@@ -40,12 +40,12 @@ After updates: click **Reload** on the extension, then refresh any open YouTube 
 | Option | Default | Description |
 |--------|---------|-------------|
 | Extension enabled | On | Master on/off switch |
+| Language | English | Popup UI — 32 languages + Auto (browser) |
 | Home page only | Off | Only intercept clicks on `youtube.com/` |
 | Include `/watch` page | Off | Also open related/suggested videos in new tabs |
 | Include Shorts viewer | Off | Also intercept while watching a Short full-screen |
 
-Quick toggle: click the extension icon.  
-Full settings: extension icon → **Full settings**, or right-click the icon → **Options**.
+All settings are in the **extension popup** — click the toolbar icon.
 
 **[Settings reference →](docs/settings.md)**
 
@@ -55,10 +55,10 @@ A content script runs on `*.youtube.com`, listens for left clicks in the capture
 
 ```
 defaults.js   shared default settings
+i18n.js       popup translations (32 languages)
 content.js    click interception on YouTube
 background.js initializes settings on first install
-popup.*       quick enable/disable
-options.*     full settings page
+popup.*       settings UI (toggle, scope, language)
 ```
 
 **[Development notes →](docs/development.md)**
