@@ -8,7 +8,7 @@
 ## Load as an unpacked extension
 
 1. **Get the code**
-   - Clone: `git clone https://github.com/YOUR_USERNAME/yt-click.git`
+   - Clone: `git clone https://github.com/AndreaZero/cozytube.git`
    - Or download and extract the ZIP from GitHub
 
 2. **Open the extensions page**
